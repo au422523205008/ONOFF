@@ -688,3 +688,46 @@ textarea:focus {
     padding: 8px 8px;
   }
 }
+
+@media (max-width: 600px) {
+
+  body { font-size: 14px; }
+
+  .container { width: calc(100% - 20px); }
+
+  .header-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-collage {
+    grid-template-columns: 1fr;
+  }
+
+  .btn {
+    width: 100%;
+    min-height: 44px;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-grid,
+  .review-grid {
+    grid-template-columns: 1fr;
+  }
+
+  iframe {
+    height: 200px;
+  }
+}
